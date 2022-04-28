@@ -464,49 +464,6 @@
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form method="post" role="form" class="php-email-form" action="/">
-              {% csrf_token %}
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  {{ form.name.label_tag }}
-                  {{ form.name }}
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  {{ form.email.label_tag }}
-                  {{ form.email }}
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                {{ form.subject.label_tag }}
-                {{ form.subject }}
-              </div>
-              <div class="form-group mt-3">
-                {{ form.message.label_tag }}
-                {{ form.message }}
-              </div>
-              <div class="my-3">
-                {% if form.errors %}
-                    {% for field,error in form.errors.items %}
-                      <div class="alert alert-danger" role="alert">
-                        <span>An {{error}} error occurred on: {{field}}</span>
-                      </div>
-                    {% endfor %}
-                {% endif %}
-                {% if messages %}
-                    {% for msg in messages %}
-                      <div class="alert alert-{{msg.level_tag}}" role="alert">
-                        <span>{{msg.message}}</span>
-                      </div>
-                    {% endfor %}
-                {% endif %}
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
         </div>
 
       </div>
