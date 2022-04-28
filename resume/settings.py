@@ -27,9 +27,9 @@ PROJECT_DIR = Path(__file__).resolve().parent
 SECRET_KEY = os.environ["KEY"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1", ".herokuapp.com"]
+ALLOWED_HOSTS = ["127.0.0.1", ".pythonanywhere.com"]
 
 
 # Application definition
