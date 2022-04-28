@@ -23,15 +23,15 @@ def send_message(request, subject, sender, message):
                 from_addr=sender,
                 to_addrs=USERNAME
             )
-    except SMTPException:
+    except SMTPException as smtpe:
         messages.error(
             request=request,
-            message="An error occurred. Could not send the message. Please try again."
+            message=f"An error occurred. Could not send the message. Please try again.\n\n{smtpe}"
         )
-    except Exception:
+    except Exception as exc:
         messages.error(
             request=request,
-            message="An error occurred. Could not send the message. Please try again."
+            message=f"An error occurred. Could not send the message. Please try again.\n\n{exc}"
         )
     else:
         messages.success(request=request, message="Message sent successfully. Thank you")
