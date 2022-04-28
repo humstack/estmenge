@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Esther Resume</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.ico' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.6.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Esther Menge</h1>
+      <p>I'm an <span class="typed" data-typed-items="Environmental Scientist"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>      
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="{% static 'assets/img/profile-img.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Environmental Scientist</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>            
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Nairobi, Kenya</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>                  
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:estmeng@gmail.com">estmeng@gmail.com</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Facts</h2>      
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="60" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Awards</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>  
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Environmental Compliance <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Data Analysis <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Workplace Safety <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Risk Assessment <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Constuction Safety <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Occupational Health <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Environmental awareness <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>    
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Esther Menge</h4>
+              <p><em>Steadfast and reliable Environmental Scientist with 12 months background in Environmental Impact Assessment and Auditing. Knowledgeable in report writing, data presentation and Geographic Information Systems (GIS). Persuasive communication skills, critical thinker and adept in data analysis.</em></p>
+              <ul>
+                <li>Nairobi,Kenya. </li>  
+                <li>estmeng@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Certificate in Occupational Safety and Health</h4>
+              <h5>2021 - 2021</h5>
+              <p><em>Alison Online Courses</em></p>
+              <p>Knowledgeable in infectious, physical, and fire risk and prevention in industrial operations and activities. Understood psycho-social risks and mitigation steps for employee and overall workplace safety. Can assess and train staff on workplace safety.</p>                    
+            </div>
+            <div class="resume-item">
+              <h4>Certificate in Environmental Sustainability - Revised</h4>
+              <h5>2020 - 2020</h5>
+              <p><em>Alison Online Courses</em></p>
+              <p>Possesses environmental sustainability and human activity impact and mitigation knowledge. Gained sustainable transport skills for safe and habitable environment.</p>                    
+            </div>
+            <div class="resume-item">
+              <h4>Certificate in ISO14001:2015 Environmental Management Systems(EMS)</h4>
+              <h5>2020 - 2020</h5>
+              <p><em>Alison Online Courses</em></p>
+              <p>Gained ISO 14001 knowledge, background, and application. Can comfortably consult and audit organizational activities to determine compliance.</p>                    
+            </div>
+            <div class="resume-item">
+              <h4>Diploma in Workplace Safety and Health - Revised 2017</h4>
+              <h5>2019 - 2019</h5>
+              <p><em>Alison Online Courses</em></p>
+              <p>Acquired workplace safety audit, risk analysis, and hazard identification and control skills. Reinforced gained skills through a case study on school health and safety management.</p>                    
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Environmental Studies, Planning and Management</h4>
+              <h5>2015 - 2019</h5>
+              <p><em>Maasai Mara University</em></p>
+              <p>Learnt impact assessment and audit techniques through fieldwork exercises and activities during attachment period. Obtained data collection, analysis, and report writing skills for generating high-quality assessment and audit reports.</p>          
+            </div>            
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Environmental Science Internship</h4>
+              <h5>2022 - Present</h5>
+              <p><em>Nairobi, Kenya </em></p>
+              <ul>
+                <li>Delivers audit documentation and reports and facilitates communication with senior leadership teams.</li>
+                <li>Collaborates with other stakeholders to implement and monitor environmental risk management and restoration endeavors. </li>
+                <li>Assessed negative human activity impact and recommended relevant mitigation measures.</li>
+                <li>Monitored and reviewed environmental recovery programs to determine areas for improvement.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Environmental Attaché</h4>
+              <h5>2019 - 2019</h5>
+              <p><em>Nairobi, Kenya</em></p>
+              <ul>
+                <li>Reviewed previous urban rivers' restoration project reports, pin-pointed ecological restoration gaps, and designed restoration plans to address identified gaps.</li>
+                <li>Participated in Michuki Park restoration follow-up activities in Nairobi County.</li>      
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Environmental Impact Assessment (EIA) Attaché</h4>
+              <h5>2019 - 2019</h5>
+              <p><em>Nairobi, Kenya</em></p>
+              <ul>
+                <li>Collected and analyzed Impact Assessment and Audit data, generated summary reports, and submitted them to National Environmental Management Authority(NEMA) for  acknowledgement and licensing.</li>
+                <li>Visited the Maasai Integrated Development Initiative (MIDI) in Ngong town and we witnessed MIDI's community efforts, including, training on organic farming methods, water retention through sand dam building, and table banking for savings deposit and soft loans.</li>
+                <li>Trained the Maasai Community on the need for Environmental Conservation in groups of 20 people for 3 days.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>I provide the services below for organizations and Small and Medium Enterprises. (SMEs) Moreover, I also audit residential and commercial properties.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bx bx-search-alt-2"></i>
+              </div>
+              <h4><a href="">Environmental Impact Assessment</a></h4>
+              <p>I have extensive experience assessing organizational and business impacts on the environment. Additionally, I also generate findings report from assessment activities and issue recommendations to resolve identified issues. <a href="#contact">Contact me</a> today to check your status.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                <i class="bx bx-list-check"></i>
+              </div>
+              <h4><a href="">Environmental Audit</a></h4>
+              <p>I possess exceptional audit skills to check and verify compliance with recommendations. I can verify and identify shortcomings to help entities meet environmental and regulatory obligations. <a href="#contact">Contact me</a> today.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="bx bxs-edit"></i>
+              </div>
+              <h4><a href="">Report Writing</a></h4>
+              <p>I have an extensive background collecting data and writing standard and high-quality reports for assessment and audit operations. I also know report submission and verification procedures with regulatory authorities. <a href="#contact">Contact me</a> today for your specialized offer.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                </svg>
+                <i class="bx bx-support"></i>
+              </div>
+              <h4><a href="">Occupational Safety Audit and Training</a></h4>
+              <p>I possess skills and expertise on identifying, preventing, and resolving workplace safety risks. <a href="#contact">Contact me</a> today.</p>
+            </div>
+          </div>        
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Abstract Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Abstracts and Climathons</h2>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">                
+                <h3>Sustainable Mobility, Water and Sanitation and Waste Management</h3>
+                <h4>Quercus Group</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  As part of a six-member team participated in a Climathon. Developed and submitted a proposal to improve urban movement in Nairobi using environmentally friendly buses. We attained number 2 out of 6 teams in all categories and number 1 in the sustainable mobility category. 
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End abstract item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">                
+                <h3>Hinging Food Processing on Research and Innovation in Kenya</h3>
+                <h4>Eastern African Research and Innovation Management Association (EARIMA) Conference</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Penned an abstract that majored on boosting economical food processing in Kenya through research and innovation to reduce harvest losses.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End abstract item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">                
+                <h3>Food Security and Sustainable Agriculture Feasibility in Kenya</h3>
+                <h4>Kenyatta University Biennial Research and Innovation Conference</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  This abstract focused on Kenya's food insecurity and how it could be curbed through Sustainable Agriculture. Some of the solutions were; Climate Smart, which entails increasing agricultural productivity and resilience to achieve food security, and Maasai Integrated Development Initiative, a Non-Governmental Organization that  teaches the Maasai community about Conservation Agriculture.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End abstract item -->                      
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End abstracts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">        
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:estmeng@gmail.com">estmeng@gmail.com</a></p>
+              </div>
+              
+
+              <div class="linkedin">
+                <i class="bx bxl-linkedin"></i>
+                <h4>LinkedIn:</h4>
+                <p><a href="https://www.linkedin.com/in/mengeesther" class="linkedin" target="_blank">mengeesther</a></p>
+              </div>                          
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form method="post" role="form" class="php-email-form" action="/">
+              {% csrf_token %}
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  {{ form.name.label_tag }}
+                  {{ form.name }}
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  {{ form.email.label_tag }}
+                  {{ form.email }}
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                {{ form.subject.label_tag }}
+                {{ form.subject }}
+              </div>
+              <div class="form-group mt-3">
+                {{ form.message.label_tag }}
+                {{ form.message }}
+              </div>
+              <div class="my-3">
+                {% if form.errors %}
+                    {% for field,error in form.errors.items %}
+                      <div class="alert alert-danger" role="alert">
+                        <span>An {{error}} error occurred on: {{field}}</span>
+                      </div>
+                    {% endfor %}
+                {% endif %}
+                {% if messages %}
+                    {% for msg in messages %}
+                      <div class="alert alert-{{msg.level_tag}}" role="alert">
+                        <span>{{msg.message}}</span>
+                      </div>
+                    {% endfor %}
+                {% endif %}
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">      
+      <div class="copyright">
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Background Pic Photo by SUNIL PATEL from Pexels<br/>   
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>        
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
