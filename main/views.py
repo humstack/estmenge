@@ -11,7 +11,7 @@ from .forms import ContactForm
 USERNAME = os.environ["RECIPIENT"]
 PASSWORD = os.environ["RECIPIENT_PASSWORD"]
 SMTP_HOST = os.environ["SMTP_HOST"]
-RETRY_COUNT = os.environ["RETRY_COUNT"]
+RETRY_COUNT = int(os.environ["RETRY_COUNT"])
 
 
 def send(subject, sender, message):
